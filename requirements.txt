@@ -1,0 +1,6 @@
+einops>=0.8
+h5py>=3.11
+lightning>=2.4
+numpy>=1.26
+scikit-learn>=1.5
+torch>=2.4

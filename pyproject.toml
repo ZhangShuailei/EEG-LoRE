@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eeg-lore"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = [
+    "einops>=0.8",
+    "h5py>=3.11",
+    "lightning>=2.4",
+    "numpy>=1.26",
+    "scikit-learn>=1.5",
+    "torch>=2.4",
+]
+
+[tool.setuptools]
+packages = ["eeg_lore"]
